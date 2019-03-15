@@ -1,0 +1,16 @@
+$success:green;
+$primary:blue;
+$marginTop1:1px;
+$marginTop2:2px;
+.btn-success{
+  background:$success;
+}
+.btn-primary{
+  background:$primary;
+  margin-top:$marginTop1 ;
+}
+@mixin changeColor{
+  background-color: blueviolet;
+
+
+}

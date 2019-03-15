@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.auhtor-bio,
+.author-name{
+    @extend .row;
+}
+
+.author-nameLabel,
+.author-nameFirst,
+.author-nameList{
+    @extend .col-md-4;
+}
+
+.auhtor-bio p{
+    @extend .col-md-12;
+
+}

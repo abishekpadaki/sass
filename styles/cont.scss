@@ -1,0 +1,13 @@
+@mixin gutter{
+    margin:1%;
+    display:inline;
+}
+.container{
+    width: 100%;
+}
+
+.col-fifty{
+    width:48%;
+    @include gutter()
+}
+
